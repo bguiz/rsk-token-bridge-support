@@ -1,0 +1,151 @@
+{
+  "RBTC": {
+    "type": "cryptocurrency",
+    "name": "Smart Bitcoin",
+    "reference": "https://developers.rsk.co/rsk/rbtc/",
+    "wallets": {
+      "browser": [
+        "metamask",
+        "liquality",
+        "nifty"
+      ],
+      "desktop": [
+        "mycrypto"
+      ],
+      "mobile": [
+        "defiant",
+        "rwallet",
+        "mathWallet"
+      ],
+      "hardware": [
+        "ledger"
+      ]
+    },
+    "finance": {
+      "protocol": [
+        "rskPowpeg"
+      ],
+      "wallets": [
+        "defiant",
+        "liquality"
+      ],
+      "centralisedExchange": [
+        "bitfinex",
+        "kucoin"
+      ],
+      "custodialExchange": [
+        "liquality",
+        "exolix"
+      ],
+      "decentralisedExchange": [
+        "rskSwap",
+        "sovryn",
+        "texMoneyOnChain"
+      ]
+    }
+  },
+  "RIF": {
+    "type": "fungibleToken",
+    "name": "RSK Infrastructure Framework token",
+    "reference": "https://developers.rsk.co/rif/token/",
+    "eip20": true,
+    "eip677": true,
+    "symbolRskMainnet": "RIF",
+    "addressRskMainnet": "0x2acc95758f8b5f583470ba265eb685a8f45fc9d5",
+    "symbolRskTestnet": "tRIF",
+    "addressRskTestnet": "0x19f64674d8a5b4e652319f5e239efd3bc969a1fe",
+    "symbolEthereumMainnet": "eRIF",
+    "addressEthereumMainnet": "0x73c08467e23f7dcb7ddbbc8d05041b74467a498a",
+    "symbolEthereumKovan": "etRIF",
+    "addressEthereumKovan": "0x69f6d4d4813f8e2e618dae7572e04b6d5329e207",
+    "wallets": {
+      "browser": [
+        "metamask",
+        "liquality",
+        "nifty"
+      ],
+      "desktop": [
+        "mycrypto"
+      ],
+      "mobile": [
+        "defiant",
+        "rwallet",
+        "mathWallet"
+      ],
+      "hardware": [
+      ]
+    },
+    "finance": {
+      "protocol": [
+      ],
+      "wallets": [
+        "defiant",
+        "liquality"
+      ],
+      "centralisedExchange": [
+        "binance",
+        "kucoin"
+      ],
+      "custodialExchange": [
+        "liquality",
+        "exolix"
+      ],
+      "decentralisedExchange": [
+        "rskSwap",
+        "texMoneyOnChain"
+      ]
+    }
+  },
+  "DOC": {
+    "type": "fungibleToken",
+    "name": "Dollar on Chain token",
+    "reference": "https://moneyonchain.com/doc-bitcoin-stablecoin/",
+    "eip20": true,
+    "eip677": false,
+    "symbolRskMainnet": "DOC",
+    "addressRskMainnet": "0xe700691da7b9851f2f35f8b8182c69c53ccad9db",
+    "symbolRskTestnet": "tDOC",
+    "addressRskTestnet": "0xcb46c0ddc60d18efeb0e586c17af6ea36452dae0",
+    "symbolEthereumMainnet": "eDOC",
+    "addressEthereumMainnet": "0x69f6d4D4813F8e2e618DAE7572e04b6D5329E207",
+    "symbolEthereumKovan": "etDOC",
+    "addressEthereumKovan": "0x09a8f2041Be23e8eC3c72790C9A92089BC70FbCa",
+    "wallets": {
+      "browser": [
+        "metamask",
+        "liquality",
+        "nifty"
+      ],
+      "desktop": [
+        "mycrypto"
+      ],
+      "mobile": [
+        "defiant",
+        "rwallet",
+        "mathWallet"
+      ],
+      "hardware": [
+      ]
+    },
+    "finance": {
+      "protocol": [
+      ],
+      "wallets": [
+      ],
+      "centralisedExchange": [
+      ],
+      "custodialExchange": [
+      ],
+      "decentralisedExchange": [
+        "rskSwap",
+        "texMoneyOnChain"
+      ],
+      "defiLend": [
+        "sovryn"
+      ],
+      "defiYieldFarm": [
+        "sovryn"
+      ]
+    }
+  }
+}
